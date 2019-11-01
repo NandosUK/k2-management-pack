@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Management.Automation;
-using System.Text;
 using SourceCode.ComponentModel;
 using SourceCode.Deployment.Management;
 
@@ -21,16 +18,23 @@ namespace K2Field.Powershell.Module
         [Parameter(
             Mandatory = true,
             Position = 2,
-            HelpMessage = "Category in which the objects reside. Youe need to provide the full path: \"Category1\\Category2\\TargetSubCategory\""
+            HelpMessage = "Workflow(s) e.g. ncl.Rota.Processes\\*"
         )]
-        public string Category { get; set; }
+        public string Name { get; set; }
 
-        [Parameter(Position = 3,
+        [Parameter(
+            Mandatory = true,
+            Position = 3,
+            HelpMessage = "Namespace e.g. urn:SourceCode/Workflows"
+        )]
+        public string NameSpace { get; set; }
+
+        [Parameter(Position = 4,
             HelpMessage = "Should the package be validated in the end")]
         public SwitchParameter Validate { get; set; }
 
         [Parameter(
-            Position = 4,
+            Position = 5,
             HelpMessage = "$false: Dependencies will be included into the package, $true: Dependencies will be included as reference.")]
         public SwitchParameter IncludeDependenciesAsReference { get; set; }
 
@@ -51,28 +55,15 @@ namespace K2Field.Powershell.Module
             try
             {
                 Session session = _packageDeploymentManager.CreateSession("K2Module" + DateTime.Now.ToString());
+
                 session.SetOption("NoAnalyze", true);
                 PackageItemOptions options = PackageItemOptions.Create();
                 options.ValidatePackage = Validate;
 
-                var pathNamespace = "/root/";
-                var rootNamespace = "urn:SourceCode/Categories";
-                string ns;
-                string category;
-
-                var categories = Category.Split('\\');
-
-                if (categories.Length > 1)
-                {
-                    var parentCats = string.Join("/", categories.Take(categories.Length - 1));
-                    pathNamespace += parentCats + "/";
-                }
-                category = categories.Last();
-                ns = rootNamespace + "?" + Uri.EscapeDataString(category) + "#Path." + Uri.EscapeDataString(pathNamespace);
-                
-                var typeRef = new TypeRef(category, ns);
+                var typeRef = new TypeRef(Name, NameSpace);
                 
                 var query = QueryItemOptions.Create(typeRef);
+
                 var results = session.FindItems(query).Result;
                 foreach (var result in results)
                 {
