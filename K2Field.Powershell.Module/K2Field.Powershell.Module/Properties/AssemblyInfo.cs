@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("K2Field.Powershell.Module")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A set of useful utilities to manage K2 Workflows and Form")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Nandos")]
 [assembly: AssemblyProduct("K2Field.Powershell.Module")]
