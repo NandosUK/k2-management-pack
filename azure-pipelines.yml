@@ -8,8 +8,6 @@ trigger:
 
 pool: k2  
 
-name: 1.0.0
-
 variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
@@ -38,8 +36,9 @@ steps:
 - task: NuGetCommand@2
   inputs:
     command: 'pack'
-    packagesToPack: '**/*.nuspec'
-    versioningScheme: byBuildNumber    
+    packagesToPack: '**/*.csproj'
+
+    
 
 
 - task: NuGetCommand@2
