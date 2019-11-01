@@ -11,7 +11,8 @@ pool: k2
 variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
-  buildConfiguration: 'Release'  
+  buildConfiguration: 'Release'
+  verion.MajorMinor: 1.0
 
 steps:
 - task: NuGetToolInstaller@1
@@ -36,7 +37,7 @@ steps:
   inputs:
     command: 'pack'
     packagesToPack: '**/*.nuspec'
-    versioningScheme: byBuildNumber
+    versioningScheme: byBuildNumber    
 
 
 - task: NuGetCommand@2
