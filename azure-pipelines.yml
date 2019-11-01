@@ -8,12 +8,13 @@ trigger:
 
 pool: k2  
 
+name: 1.0.0
+
 variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
-  version.MajorMinor: 1.0
-  version.Revision: $[counter(variables['Version.MajorMinor'], 0)]
+  Build.BuildNumber: 1.0  
 
 steps:
 - task: NuGetToolInstaller@1
