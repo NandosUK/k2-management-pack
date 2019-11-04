@@ -33,6 +33,120 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="KO, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\KO.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.Categories.Client, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.Categories.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.ComponentModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.ComponentModel.Composition, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.ComponentModel.Composition.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.Deployment.Management, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.Deployment.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.EnvironmentSettings.Client, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.EnvironmentSettings.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.EventBus.Authoring, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.EventBus.Authoring.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.EventBus.ClientAPI, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.EventBus.ClientAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.EventBus.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.EventBus.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.EventBus.Mapping, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.EventBus.Mapping.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.EventBus.Utils, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.EventBus.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.Expressions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.HostClientAPI, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=AMD64">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.HostClientAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.HostServerInterfaces, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.HostServerInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.Logging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.ManagementAPI, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.ManagementAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.MessageBus.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.MessageBus.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.ResolverFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.ResolverFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.Security.OAuth.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.Security.OAuth.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.Security.UserRoleManager.Client, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.Security.UserRoleManager.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.Security.UserRoleManager.Management, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.Security.UserRoleManager.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.SecurityManagementAPI, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=AMD64">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.SecurityManagementAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.SharePoint.WebServices.Client, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.SharePoint.WebServices.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.SmartObjects.Authoring, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.SmartObjects.Authoring.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.SmartObjects.Client, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.SmartObjects.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.SmartObjects.Management, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.SmartObjects.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.SmartObjects.Services.Management, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.SmartObjects.Services.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.SmartObjects.Services.ServiceSDK, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.SmartObjects.Services.ServiceSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.Workflow.Authoring, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.Workflow.Authoring.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.Workflow.Client, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=AMD64">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.Workflow.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.Workflow.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.Workflow.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.Workflow.Data.Resolvers, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.Workflow.Data.Resolvers.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.Workflow.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.Workflow.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.Workflow.ItemReferences.Base, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.Workflow.ItemReferences.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.Workflow.ItemReferences.SmartObjectItem, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.Workflow.ItemReferences.SmartObjectItem.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceCode.Workflow.Management, Version=4.0.0.0, Culture=neutral, PublicKeyToken=16a2c5aaaa1b130d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K2.SourceCode.Workflow.Client.5.0.2\lib\net35\SourceCode.Workflow.Management.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Management" />
