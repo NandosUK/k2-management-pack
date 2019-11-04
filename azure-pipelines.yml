@@ -39,9 +39,7 @@ steps:
   inputs:
     command: 'pack'
     packagesToPack: '**/*.csproj'
-
-    
-
+    includeReferencedProjects: true
 
 - task: NuGetCommand@2
   inputs:
