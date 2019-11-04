@@ -38,7 +38,7 @@ steps:
 - task: NuGetCommand@2
   inputs:
     command: 'pack'
-    packagesToPack: '**/*.csproj'    
+    packagesToPack: '**/K2Field.Powershell.Module.csproj'    
 
 - task: NuGetCommand@2
   inputs:
