@@ -24,9 +24,6 @@ steps:
   inputs:
     command: 'restore'
     restoreSolution: '**/*.sln'
-    feedsToUse: 'select'
-    vstsFeed: 'be18fdcc-2f52-4a3c-9d85-8ce5a8eb36a0'
-
     
 - task: VSBuild@1
   inputs:
