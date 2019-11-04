@@ -13,7 +13,7 @@ variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
-  Build.BuildNumber: 1.0  
+  Build.BuildNumber: 1.1  
 
 steps:
 
