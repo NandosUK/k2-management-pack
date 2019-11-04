@@ -16,9 +16,7 @@ variables:
   Build.BuildNumber: 1.0  
 
 steps:
-- task: NuGetToolInstaller@1
-  inputs:
-   versionSpec: 5.3.0
+
 
 - task: NuGetCommand@2
   inputs:
